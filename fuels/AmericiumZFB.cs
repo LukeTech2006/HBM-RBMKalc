@@ -1,4 +1,6 @@
-﻿namespace HBM_RBMKalc.fuels
+﻿using HBM_RBMKalc.simcore;
+
+namespace HBM_RBMKalc.fuels
 {
     internal class AmericiumZFB : BaseFuel
     {

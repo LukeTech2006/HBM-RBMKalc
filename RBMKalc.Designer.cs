@@ -485,6 +485,7 @@
             FuelColumnList.Name = "FuelColumnList";
             FuelColumnList.Size = new Size(341, 304);
             FuelColumnList.TabIndex = 0;
+            FuelColumnList.SelectedIndexChanged += FuelColumnList_SelectedIndexChanged;
             // 
             // ReactorPage
             // 

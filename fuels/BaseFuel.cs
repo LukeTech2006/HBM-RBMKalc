@@ -12,5 +12,10 @@
         public double HeatPerTickPerFlux = HeatPerTickPerFlux;
         public double Diffusion = Diffusion;
         public int SkinMeltingPoint = SkinMeltingPoint;
+
+        public override string ToString()
+        {
+            return this.Name;
+        }
     }
 }
